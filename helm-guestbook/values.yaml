@@ -26,13 +26,14 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-resources:
-  requests:
-    cpu: 10
-    memory: 1Gi
-  limits:
-    cpu: 10
-    memory: 1Gi
+resources: {}
+#resources:
+#  requests:
+#    cpu: 10
+#    memory: 1Gi
+#  limits:
+#    cpu: 10
+#    memory: 1Gi
 
 
   # We usually recommend not to specify default resources and to leave this as a conscious
