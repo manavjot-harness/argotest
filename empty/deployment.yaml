@@ -7,3 +7,7 @@ metadata:
 type: Opaque
 data:
   password: <password>
+  VAULT_ADDR: http://localhost:8200
+#  VAULT_TOKEN: Your Vault token##
+  AVP_TYPE: vault
+  AVP_AUTH_TYPE: token
